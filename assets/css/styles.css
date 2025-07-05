@@ -1,0 +1,312 @@
+/*unversal selector*/
+* {
+        margin: 0;
+        box-sizing: border-box;
+}
+
+/*css html*/
+html{
+        overflow-x: hidden;
+        position: relative;
+        min-height: 100%;
+}
+
+body {
+       
+        font-family: poppins;
+        font-weight: 400;
+        line-height: 160%;
+        margin: 0 0 150px 0;
+}
+
+/*css for the header part*/
+header ,footer {
+       
+        background-color: rgba(252, 191, 8, 0.664);
+        padding: 20px;
+        text-align: center;
+}
+#title-1 {
+        font-size: 44px;
+        text-transform: uppercase;
+        
+}
+
+#washera {
+        color: rgb(237, 64, 64);
+}
+
+#academy {
+        color: rgb(58, 214, 58);
+}
+/* Navigation or meanu css */
+.menu-list {
+        margin: 15px auto;
+        
+}
+
+
+.menu-list li {
+        display: inline-block;
+        margin: 15px;
+        
+}
+
+.menu-list li a {
+        color: white;
+        text-decoration: none;
+        padding: 3px;
+}
+.active{
+        border-bottom: 3px solid red;
+}
+
+main {
+        padding: 30px 50px 30px 50px;
+
+}
+.page-section{
+        margin: 30px auto;
+        padding: 30px;
+        border-radius: 5px;
+}
+h1{
+        margin: 10px auto;
+        text-transform: uppercase;
+}
+.introduction{
+        background-color: rgb(146, 65, 200);
+        color: white;
+}
+.section2{
+        background-color: rgb(219, 219, 97);
+}
+.technologies {
+        padding: 30px;
+        background-color: rgb(205, 134, 41);
+        color: white;
+}
+
+.tech-1{
+        background-color: rgb(14, 15, 80);
+}
+.tech-2{
+        background-color: rgb(111, 39, 206);
+}
+.meters{
+        background-color: rgb(28, 26, 26);
+        color: white;
+}
+.progresses{
+        background-color: rgb(145, 62, 212);
+        color: white;
+}
+.detail-summary{
+        background: rgb(216, 199, 83);
+}
+.code-formmating{
+        background: rgb(105, 105, 232);
+        color: white;
+}
+img{
+        width: 10%;
+}
+.videos{
+        text-align: center;
+}
+.audio{
+        margin: 25px auto;
+}
+.audio h2{
+        margin: 5px;
+        font-weight: 400;
+}
+i {
+        font-size: 42px;
+}
+
+video {
+       max-width: 75%;
+        margin: auto;
+        text-align: center;
+}
+
+meter {
+        height: 50PX;
+        width: 500PX;
+}
+
+progress {
+        height: 50px;
+        width: 75%;
+}
+
+pre span {
+        color: rgb(41, 41, 225);
+}
+/* table css*/
+
+table,
+td,
+th {
+        border: 1px solid rgb(94, 41, 159);
+        border-collapse: collapse;
+        font-weight: 300;
+}
+
+table {
+        width: 50%;
+        margin: 50px auto;
+}
+
+th {
+        background-color: rgb(94, 41, 159);
+        color: white;
+}
+
+td {
+        padding-left: 10px;
+}
+
+
+
+/*color
+    name:140
+    rgb red,green,blue
+    rgb(0, 0, 0)
+    hexadecimal #ff0000
+    */
+.box-wrapper {
+        position: relative;
+        background-color: lightblue;
+        height: 500px;
+        width: 100%;
+        padding: 0;
+}
+
+.box {
+        position: absolute;
+        display: inline-block;
+
+        text-align: center;
+        line-height: 150px;
+        font-size: 90px;
+        width: 150px;
+        height: 150px;
+        /* border-top: 10px groove green;
+        border-right: 10px groove yellow;
+        border-bottom: 10px groove red;
+        */
+        border: 10px solid rgb(223, 216, 216);
+
+
+        /* border-radius: 50%;*/
+        color: white;
+}
+
+#box1 {
+        background-color: rgb(93, 209, 93);
+        bottom: 0;
+        left: 0;
+}
+
+#box2 {
+        left: 0px;
+        top: o;
+        background-color: rgb(199, 82, 82);
+}
+
+#box3 {
+        right: 0;
+        top: 0;
+        background-color: rgb(190, 190, 67);
+}
+
+#box4 {
+        right: 0;
+        bottom: 0;
+        background-color: purple;
+}
+
+.web-teck {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        line-height: 150px;
+        color: white;
+        left: 450PX;
+        top: 150px;
+}
+
+#html {
+        background-color: rgb(226, 98, 7);
+        z-index: 3;
+}
+
+#CSS {
+        left: 580px;
+        background-color: rgb(128, 128, 232);
+        top: 165px;
+        z-index: 1;
+}
+
+#js {
+        left: 720px;
+        background-color: rgb(209, 209, 82);
+        top: 180px;
+        z-index: 2;
+
+}
+footer{
+        position: absolute;
+        
+        width: 100%;
+}
+.footer-arrow{
+        text-align: right;
+        
+        
+}
+.footer-arrow i{
+color: rgb(236, 95, 95);
+}
+.fa-square-github{
+        color: #24292e;
+}
+/*Application page css*/
+form{
+        width: 55%;
+       /* border: 2px solid red;*/
+
+}
+.form-group{
+        margin: 10px auto;
+}
+ input[type='text'],input[type='date'],input[type='email'],textarea,select{
+        display: block;
+        padding: 8px;
+        width: 65%;
+        border-radius: 3px;
+        border: 2px solid rgb(236, 95, 95 ,0.25);
+        margin-top: 5px;
+
+}
+input[type='text']:hover,input[type='date']:hover,input[type='email']:hover,textarea:hover,select:hover{
+      
+        border: 2px solid rgb(236, 95, 95);
+
+
+}
+.btn{
+        border: 2px solid rgb(69, 197, 69);
+        background: rgb(69, 197, 69);
+        padding: 10px 25px;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 900;
+        text-transform: uppercase;
+
+}
+
