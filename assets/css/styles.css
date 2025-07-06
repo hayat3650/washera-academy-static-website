@@ -53,7 +53,7 @@ header ,footer {
 }
 
 .menu-list li a {
-        color: white;
+        color: black;
         text-decoration: none;
         padding: 3px;
 }
